@@ -64,7 +64,28 @@ variance = (S ** 2) / (S ** 2).sum()
 The implementation code is provided in the project's Python script, along with comments to explain the key steps and computations.
 
 ## Computational Results
+### Part a
+The correlation matrix of the Yaleface data set is plotted as below:
 
+![part a result](https://github.com/Mmmo-C/Image-correlation/blob/main/results/a.png)
+
+### Part b
+The two most highly correlated images and the two most highly uncorrelated images are:
+
+![part b result](https://github.com/Mmmo-C/Image-correlation/blob/main/results/b.png)
+
+### Part c
+The selected 10x10 correaltion matrix [1, 313, 512, 5, 2400, 113, 1024, 87, 314, 2005] is plotted as below:
+![part c result](https://github.com/Mmmo-C/Image-correlation/blob/main/results/c.png)
+
+### Part f
+The norm of difference of the first eigenvector v1 from (d) with the first SVD mode u1 from (e) is: 1.419911450662362e-15
+
+### Part g
+The the percentage of variance captured by each of the first 6 SVD modes is:[0.72927567 0.15281763 0.02566745 0.01877525 0.00639306 0.00592431]
+
+The first 6 SVD modes can be plotted as below:
+![part g result](https://github.com/Mmmo-C/Image-correlation/blob/main/results/g.png)
 
 ## Summary and Conclusions
 This project demonstrates the use of eigenvectors and SVD for analyzing and representing a dataset of images. The computed eigenvectors and SVD modes can capture the significant modes of variation in the images and provide a useful basis for representing the data. The project's implementation code and results can serve as a starting point for further exploration and experimentation with eigenvectors, SVD, and image analysis.
