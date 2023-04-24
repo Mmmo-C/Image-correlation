@@ -1,5 +1,5 @@
 # Image-correlation
-UW course work - EE399 -HW2
+Image analysis and basic machine learning work
 
 </p>
 Xinqi Chen @17/04/2023 
